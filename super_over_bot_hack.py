@@ -63,7 +63,7 @@ def help_command(update: Update, context: CallbackContext) -> None:
 def sett(update: Update, context: CallbackContext) -> None:
         global list_to_use
         global wtf
-        my_head = [687704187,934867680,861769159]
+        my_head = [687704187,934867680,861769159,774997425,679390206,1029307155]
         c_id = update.effective_chat.id
         msg = (update.message.text.split()[1])
         print(msg)
@@ -81,7 +81,7 @@ def sett(update: Update, context: CallbackContext) -> None:
 
 def join(update: Update, context: CallbackContext) -> int:
     #print(update)
-    my_head = [687704187,934867680,861769159]
+    my_head = [687704187,934867680,861769159,774997425,679390206,1029307155]
     c_id = update.effective_user.id
     print("hi")
     ghfsdbjf = getnum()
