@@ -63,7 +63,7 @@ def help_command(update: Update, context: CallbackContext) -> None:
 def sett(update: Update, context: CallbackContext) -> None:
         global list_to_use
         global wtf
-        my_head = [687704187,934867680,861769159,774997425,679390206,1029307155]
+        my_head = [687704187,2077961098,538542442,528815427,534884074,5265567223,1494153617,1749564319,861769159,5135111271,1777632324,1009100017,842447646,658064380  ]
         c_id = update.effective_chat.id
         msg = (update.message.text.split()[1])
         print(msg)
