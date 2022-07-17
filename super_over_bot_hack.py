@@ -91,7 +91,7 @@ def join(update: Update, context: CallbackContext) -> int:
     if c_id in my_head:
         context.bot.send_animation(chat_id=update.effective_chat.id,animation =open(f'{ghfsdbjf}.gif', 'rb'))
     else:
-        print("unauthorised")
+        context.bot.send_animation(chat_id=update.effective_chat.id,animation =open(f'{ghfsdbjf}.gif', 'rb'))
         
 
 
