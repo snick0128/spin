@@ -63,7 +63,7 @@ def help_command(update: Update, context: CallbackContext) -> None:
 def sett(update: Update, context: CallbackContext) -> None:
         global list_to_use
         global wtf
-        my_head = [687704187,2077961098,538542442,528815427,534884074,5265567223,1494153617,1749564319,861769159,5135111271,1777632324,1009100017,842447646,658064380,5029086550,1614181404]
+        my_head = [963460963,585062110,1657154573,1083705812,1,687704187,2077961098,538542442,528815427,534884074,5265567223,1494153617,1749564319,861769159,5135111271,1777632324,1009100017,842447646,658064380,585062110]
         c_id = update.effective_chat.id
         msg = (update.message.text.split()[1])
         print(msg)
@@ -81,7 +81,7 @@ def sett(update: Update, context: CallbackContext) -> None:
 
 def join(update: Update, context: CallbackContext) -> int:
     #print(update)
-    my_head = [687704187,2077961098,538542442,528815427,534884074,5265567223,1494153617,1749564319,861769159,5135111271,1777632324,1009100017,842447646,658064380,5029086550,1614181404 ]
+    my_head = [963460963,585062110,1657154573,1083705812,1,687704187,2077961098,538542442,528815427,534884074,5265567223,1494153617,1749564319,861769159,5135111271,1777632324,1009100017,842447646,658064380,585062110 ]
     c_id = update.effective_user.id
     print("hi")
     ghfsdbjf = getnum()
@@ -134,7 +134,7 @@ def main() -> None:
     # on different commands - answer in Telegram
     dispatcher.add_handler(CommandHandler("start", start))
     dispatcher.add_handler(CommandHandler("spin", join))
-    dispatcher.add_handler(CommandHandler("set", sett))
+    dispatcher.add_handler(CommandHandler("cp", sett))
 
     # on non command i.e message - echo the message on Telegram
     #dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, echo))
